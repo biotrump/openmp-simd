@@ -1,0 +1,75 @@
+ #####################################################
+
+  MP-Whetstone Benchmark Linux/Intel v1.0 Sat Jul 27 18:08:28 2013
+
+                    Using 1, 2, 4 and 8 Threads
+
+      MWIPS MFLOPS MFLOPS MFLOPS   Cos   Exp  Fixpt     If  Equal
+                 1      2      3  MOPS  MOPS   MOPS   MOPS   MOPS
+
+ 1T   704.4  329.0  328.9  280.8  17.1   7.6  763.7 1248.6  117.7
+ 2T  1203.2  562.1  613.8  484.0  30.4  13.4  997.5 1688.6  176.8
+ 4T  1203.8  605.2  618.4  477.3  30.4  13.4  993.0 1688.2  178.0
+ 8T  1206.9  608.1  619.8  486.1  30.3  13.4 1008.3 1702.2  177.9
+
+   Overall Seconds   4.99 1T,   6.28 2T,  12.48 4T,  24.93 8T
+
+   All calculations produced consistent numeric results
+
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU N455   @ 1.66GHz
+stepping	: 10
+cpu MHz		: 1667.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm movbe lahf_lm dts
+bogomips	: 3406.92
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 32 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU N455   @ 1.66GHz
+stepping	: 10
+cpu MHz		: 1000.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fdiv_bug	: no
+hlt_bugLinux version 2.6.35-25-generic (buildd@palmer) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #44-Ubuntu SMP Fri Jan 21 17:40:48 UTC 2011
+ 
+
+From File /proc/version
+Linux version 2.6.35-25-generic (buildd@palmer) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #44-Ubuntu SMP Fri Jan 21 17:40:48 UTC 2011
+ 
+
+Additional information - none
+

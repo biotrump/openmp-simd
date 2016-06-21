@@ -1,0 +1,77 @@
+ #####################################################
+
+ MP-MFLOPS Linux/Intel v1.0 Sat Jul 27 18:18:15 2013
+
+    FPU Add & Multiply using 1, 2, 4 and 8 Threads
+
+        2 Ops/Word              32 Ops/Word
+ KB     12.8     128   12800    12.8     128   12800
+ MFLOPS
+ 1T      207     206     201     406     404     404
+ 2T      303     363     354     799     793     783
+ 4T      330     367     357     798     795     788
+ 8T      321     366     354     796     793     788
+ Results x 100000, 0 indicates ERRORS
+ 1T    86723   98518   99984   79927   97642   99975
+ 2T    86723   98518   99984   79927   97642   99975
+ 4T    86723   98518   99984   79927   97642   99975
+ 8T    86723   98518   99984   79927   97642   99975
+
+         End of test Sat Jul 27 18:18:26 2013
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU N455   @ 1.66GHz
+stepping	: 10
+cpu MHz		: 1667.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm movbe lahf_lm dts
+bogomips	: 3406.92
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 32 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU N455   @ 1.66GHz
+stepping	: 10
+cpu MHz		: 1000.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fdiv_bug	: no
+hlt_bugLinux version 2.6.35-25-generic (buildd@palmer) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #44-Ubuntu SMP Fri Jan 21 17:40:48 UTC 2011
+ 
+
+From File /proc/version
+Linux version 2.6.35-25-generic (buildd@palmer) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #44-Ubuntu SMP Fri Jan 21 17:40:48 UTC 2011
+ 
+
+Additional information - none
+

@@ -1,0 +1,55 @@
+ 900 MHz
+ ########################################################
+
+ Linpack Single Precision MultiThreaded Benchmark
+ Using NEON Intrinsics, Sun Mar 22 15:37:56 2015
+
+   MFLOPS 0 to 4 Threads, N 100, 500, 1000
+
+ Threads      None        1        2        4
+
+ N  100     323.06    66.59    64.76    64.64 
+ N  500     276.52   216.62   215.69   216.28 
+ N 1000     235.25   221.69   222.63   223.98 
+
+ NR=norm resid RE=resid MA=machep X0=x[0]-1 XN=x[n-1]-1
+
+ N              100             500            1000
+
+ NR            2.17            5.42            9.50
+ RE  5.16722466e-05  6.46698638e-04  2.26586126e-03
+ MA  1.19209290e-07  1.19209290e-07  1.19209290e-07
+ X0 -2.38418579e-07 -5.54323196e-05 -1.26898289e-04
+ XN -5.06639481e-06 -4.70876694e-06  1.41978264e-04
+
+Thread
+ 0 - 4 Same Results    Same Results    Same Results
+
+
+ 1000 MHz
+ ########################################################
+
+ Linpack Single Precision MultiThreaded Benchmark
+ Using NEON Intrinsics, Sun Mar 22 15:47:04 2015
+
+   MFLOPS 0 to 4 Threads, N 100, 500, 1000
+
+ Threads      None        1        2        4
+
+ N  100     362.42    74.74    74.63    75.16 
+ N  500     326.00   259.13   257.42   258.82 
+ N 1000     280.61   262.30   262.31   262.38 
+
+ NR=norm resid RE=resid MA=machep X0=x[0]-1 XN=x[n-1]-1
+
+ N              100             500            1000
+
+ NR            2.17            5.42            9.50
+ RE  5.16722466e-05  6.46698638e-04  2.26586126e-03
+ MA  1.19209290e-07  1.19209290e-07  1.19209290e-07
+ X0 -2.38418579e-07 -5.54323196e-05 -1.26898289e-04
+ XN -5.06639481e-06 -4.70876694e-06  1.41978264e-04
+
+Thread
+ 0 - 4 Same Results    Same Results    Same Results
+

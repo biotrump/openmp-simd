@@ -1,0 +1,43 @@
+
+ #####################################################
+
+ MP-BusSpd ARM V7A v2 Fri Mar  6 17:37:11 2015
+
+   MB/Second Reading Data, 1, 2, 4 and 8 Threads
+   Staggered starting addresses to avoid caching
+
+  KB      Inc32  Inc16   Inc8   Inc4   Inc2  RdAll
+
+ 12.3 1T   1158   1729   1815   1848   1911   2468
+      2T   2924   3368   3521   3667   3820   4801
+      4T   4435   6135   5820   7071   7465   9040
+      8T   3847   4351   5565   5731   6215   6481
+122.9 1T    427    423    767   1319   1725   2283
+      2T    808    810   1529   2608   3423   4520
+      4T    820    836   1773   3561   6567   8834
+      8T    853    867   1720   3426   6061   7319
+12288 1T     92    100    222    391    870   1576
+      2T    123    124    252    429   1008   1717
+      4T    117    147    280    385   1113   1499
+      8T    133    131    233    405    963   1562
+
+         No Errors Found
+
+         End of test Fri Mar  6 17:37:23 2015
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+model name	: ARMv7 Processor rev 5 (v7l)
+BogoMIPS	: 38.40
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 5
+
+CPU variant	: 0x0
+CPU part	: Linux version 3.18.5-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.8.3 20140303 (prerelease) (crosstool-NG linaro-1.13.1+bzr2650 - Linaro GCC 2014.03) ) #225 SMP PREEMPT Fri Jan 30 18:53:55 GMT 2015
+ 

@@ -1,0 +1,15 @@
+ #####################################################
+
+  MP-Dhrystone Benchmark Linux/ARM V7A v1.0 Tue Mar  3 15:51:05 2015
+MP-DHRYPiA7
+                    Using 1, 2, 4 and 8 Threads
+
+ Threads                        1        2        4        8
+ Seconds                     0.54     0.67     2.21     4.40
+ Dhrystones per Second    2956270  4752163  2900554  2910980
+ VAX MIPS rating             1683     2705     1651     1657
+
+         Internal pass count correct all threads
+
+         End of test Tue Mar  3 15:51:13 2015
+

@@ -1,0 +1,82 @@
+
+ #####################################################
+
+ MP-BusSpd Linux/Intel v1.0 Sat Jul 27 18:03:37 2013
+
+   MB/Second Reading Data, 1, 2, 4 and 8 Threads
+
+  KB      Inc32  Inc16   Inc8   Inc4   Inc2  RdAll
+
+ 12.3 1T   5512   6061   6219   6362   6359   6388
+      2T   5866   6412   6556   6638   6595   6659
+      4T   6157   6445   6551   6607   6605   6639
+      8T   6139   6424   6510   6611   6303   6070
+122.9 1T    513    417    787   1476   2518   3945
+      2T    586    696   1316   2347   3655   4741
+      4T    625    686   1334   2270   3614   4736
+      8T    615    720   1255   2273   3635   4777
+12288 1T    135    261    522   1034   1966   3280
+      2T    128    261    567   1146   2250   4535
+      4T    118    277    562   1183   2300   4454
+      8T    122    250    549   1122   2225   4413
+
+         No Errors Found
+
+         End of test Sat Jul 27 18:03:49 2013
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU N455   @ 1.66GHz
+stepping	: 10
+cpu MHz		: 1667.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx lm constant_tsc arch_perfmon pebs bts aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm movbe lahf_lm dts
+bogomips	: 3406.92
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 32 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU N455   @ 1.66GHz
+stepping	: 10
+cpu MHz		: 1000.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fdiv_bug	: no
+hlt_bugLinux version 2.6.35-25-generic (buildd@palmer) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #44-Ubuntu SMP Fri Jan 21 17:40:48 UTC 2011
+ 
+
+From File /proc/version
+Linux version 2.6.35-25-generic (buildd@palmer) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #44-Ubuntu SMP Fri Jan 21 17:40:48 UTC 2011
+ 
+
+Additional information - none
+

@@ -1,0 +1,18 @@
+
+ #####################################################
+
+  MP-Whetstone Benchmark Linux/ARM v1.0 Tue Mar  3 16:37:24 2015MP-WHETSPiA7
+
+                    Using 1, 2, 4 and 8 Threads
+
+      MWIPS MFLOPS MFLOPS MFLOPS   Cos   Exp   Fixpt     If  Equal
+                 1      2      3  MOPS  MOPS    MOPS   MOPS   MOPS
+
+ 1T   515.4  250.2  250.0  223.0  10.0   5.1  4421.6  891.1  334.5
+ 2T  1035.2  500.9  501.9  447.7  20.0  10.2  8878.8 1789.0  671.3
+ 4T  2063.4  960.6  996.0  893.6  39.9  20.5 17560.2 3559.3 1334.9
+ 8T  2140.9 1192.4 1325.4  992.3  40.3  21.2 24312.0 3968.1 1379.2
+
+   Overall Seconds   4.98 1T,   4.98 2T,   5.06 4T,  10.11 8T
+
+   All calculations produced consistent numeric results
